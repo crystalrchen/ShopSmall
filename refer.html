@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <title>ShopSmall</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰</button>  
+    </div>
+    <div class="navbar">
+      <div class="navbar-links">
+        <span class="navbarlogo">
+          <a href="index.html">ShopSmall</a>
+        </span>
+        <ul>
+          <li><a href="apply.html">apply now</a></li>
+          <li><a href="refer.html">refer a shop</a></li>
+          <li><a href="feedback.html">leave feedback</a></li>
+        </ul>
+      
+      </div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h3>shop categories</h3>
+      <a href="clothing.html">clothing</a>
+      <a href="electronics.html">electronics/electronic accessories</a>
+      <a href="toys.html">toys</a>
+      <a href="jewelry.html">jewelry</a>
+      <a href="homedecor.html">home decor</a>
+      <h3>———————————</h3>
+      <a href="aboutus.html">about us</a>
+      <a href="contact.html">contact</a>
+    </div>
+    <div id="page-container">
+      <h1> REFER A SHOP </h1>
+      <p id="refer-description">
+        Is there a small business you love that is not yet featured on our site? Now's your chance to refer that shop! Please fill out the information below, and we will look into the shop you referred! </p> <br>
+      <div id="refer-form">
+          <label for="shop-name">Shop name</label><br>
+          <input type="text" name="shop-name" size="45"><br><br>
+          <label for="shop-website">&nbsp;&nbsp;&nbsp;&nbsp;Shop website</label><br>
+          <input type="text" name="shop-website" size="45"><br><br>
+          <input type="button" onclick="printReferResult()" value="Submit">
+          <p id="after-submit"></p>
+    </div>  
+    <script src="script.js"></script>
+  </body>
+</html>

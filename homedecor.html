@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <title>ShopSmall</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰</button>  
+    </div>
+    <div class="navbar">
+      <div class="navbar-links">
+        <span class="navbarlogo">
+          <a href="index.html">ShopSmall</a>
+        </span>
+        <input type="text" id="searchInput" placeholder="Search home decor">
+        <button id="search-button" onclick="searchHomeDecorDatabase()">search</button>
+        <ul>
+          <li><a href="apply.html">apply now</a></li>
+          <li><a href="refer.html">refer a shop</a></li>
+          <li><a href="feedback.html">leave feedback</a></li>
+        </ul>
+      
+      </div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h3>shop categories</h3>
+      <a href="clothing.html">clothing</a>
+      <a href="electronics.html">electronics/electronic accessories</a>
+      <a href="toys.html">toys</a>
+      <a href="jewelry.html">jewelry</a>
+      <a href="homedecor.html">home decor</a>
+      <h3>———————————</h3>
+      <a href="aboutus.html">about us</a>
+      <a href="contact.html">contact</a>
+    </div>
+    <div id="page-container">
+      <a href = "homedecor.html" id="page-title">HOME DECOR</a> <br> <br>
+      <div class="shop-pictures">
+        <div id="Bloomscape">
+          <figure style="margin: 5px;">
+            <a href="https://bloomscape.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Bloomscape.png" alt="Bloomscape" height="200">
+            <figcaption>Bloomscape</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Favor">
+          <figure style="margin: 5px;">
+            <a href="https://infavorof.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Favor.png" alt="Favor" height="200">
+            <figcaption>Favor</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Bole-Road-Textiles">
+          <figure style="margin: 5px;">
+            <a href="https://boleroadtextiles.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Bole Road Textiles.png" alt="Bole Road Textiles" height="200">
+            <figcaption>Bole Road Textiles</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Morrow-Soft-Goods">
+          <figure style="margin: 5px;">
+            <a href="https://www.morrowsoftgoods.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Morrow Soft Goods.png" alt="Morrow Soft Goods" height="200">
+            <figcaption>Morrow Soft Goods</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="CULTIVER">
+          <figure style="margin: 5px;">
+            <a href="https://cultiver.com/" 
+            target="_blank">
+            <img src="graphics/home decor/CULTIVER.png" alt="CULTIVER" height="200">
+            <figcaption>CULTIVER</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Far-Away">
+          <figure style="margin: 5px;">
+            <a href="https://farandaway.co/" 
+            target="_blank">
+            <img src="graphics/home decor/Far & Away.png" alt="Far & Away" height="200">
+            <figcaption>Far & Away</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="SUNDAY-SHOP">
+          <figure style="margin: 5px;">
+            <a href="https://www.sundayshop.co/" 
+            target="_blank">
+            <img src="graphics/home decor/SUNDAY SHOP.png" alt="SUNDAY SHOP" height="200">
+            <figcaption>SUNDAY SHOP</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="LEIF">
+          <figure style="margin: 5px;">
+            <a href="https://www.leifshop.com/" 
+            target="_blank">
+            <img src="graphics/home decor/LEIF.png" alt="LEIF" height="200">
+            <figcaption>LEIF</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Cold-Picnic">
+          <figure style="margin: 5px;">
+            <a href="https://coldpicnic.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Cold Picnic.png" alt="Cold Picnic" height="200">
+            <figcaption>Cold Picnic</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Rough-Linen">
+          <figure style="margin: 5px;">
+            <a href="https://www.roughlinen.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Rough Linen.png" alt="Rough Linen" height="200">
+            <figcaption>Rough Linen</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Revival-Rugs">
+          <figure style="margin: 5px;">
+            <a href="https://www.revivalrugs.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Revival Rugs.png" alt="Revival Rugs" height="200">
+            <figcaption>Revival Rugs</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Areaware">
+          <figure style="margin: 5px;">
+            <a href="https://www.areaware.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Areaware.png" alt="Areaware" height="200">
+            <figcaption>Areaware</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Sumner">
+          <figure style="margin: 5px;">
+            <a href="http://www.sumnershop.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Sumner.png" alt="Sumner" height="200">
+            <figcaption>Sumner</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Quiet-Town">
+          <figure style="margin: 5px;">
+            <a href="https://quiettownhome.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Quiet Town.png" alt="Quiet Town" height="200">
+            <figcaption>Quiet Town</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Weezie">
+          <figure style="margin: 5px;">
+            <a href="https://weezietowels.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Weezie.png" alt="Weezie" height="200">
+            <figcaption>Weezie</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Porch-Light">
+          <figure style="margin: 5px;">
+            <a href="https://porchlightshop.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Porch Light.png" alt="Porch Light" height="200">
+            <figcaption>Porch Light</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Jayson-Home">
+          <figure style="margin: 5px;">
+            <a href="https://www.jaysonhome.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Jayson Home.png" alt="Jayson Home" height="200">
+            <figcaption>Jayson Home</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Society-Social">
+          <figure style="margin: 5px;">
+            <a href="https://www.shopsocietysocial.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Society Social.png" alt="Society Social" height="200">
+            <figcaption>Society Social</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Swoon-Home">
+          <figure style="margin: 5px;">
+            <a href="https://www.swoonhomeliving.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Swoon Home.png" alt="Swoon Home" height="200">
+            <figcaption>Swoon Home</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="We-Gather">
+          <figure style="margin: 5px;">
+            <a href="https://wegathergoods.com/" 
+            target="_blank">
+            <img src="graphics/home decor/We Gather.png" alt="We Gather" height="200">
+            <figcaption>We Gather</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="East-Fork">
+          <figure style="margin: 5px;">
+            <a href="https://eastfork.com/" 
+            target="_blank">
+            <img src="graphics/home decor/East Fork.png" alt="East Fork" height="200">
+            <figcaption>East Fork</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

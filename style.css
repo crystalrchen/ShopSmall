@@ -1,0 +1,315 @@
+html * {
+  font-family: 'Lora', serif;
+  background-color: rgb(245, 239, 235);
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  margin-left: 30px;
+  background-color: white;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  display: inline-block;
+}
+
+.navbarlogo{
+  font-size: x-large;
+  margin-left: 0%;
+}
+
+.pressed-nav-link{
+  text-decoration: bold;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: gray;
+}
+
+.navbar{
+  width: 94%;
+  height: 100%;
+  display: inline-block;
+}
+
+
+.navbar-links ul{
+  display: inline-flex;
+  margin-top: 35px;
+}
+
+.navbar-links ul li{
+  list-style: none;
+  font-size: 17px;
+  margin: 0 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.navbar input[type=text] {
+  display: inline-block;
+  width: 50%;
+  height: 25px;  
+  padding: 6px;
+  margin-top: 25px;
+  margin-left: 35px;
+  border-radius: 5px; 
+  border: 1px solid black;
+  outline: none;
+  font-size: 15px;
+}
+
+.navbar button {
+  display: none;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: gray;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+
+.openbtn:hover {
+  color: gray;
+  -webkit-transform: scale(1.15); 
+  transform: scale(1.15); 
+}
+
+#aboutus-description {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#contact-description {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#page-title {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#page-container {
+  margin-left: 10px;
+}
+
+#apply-description {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 28px;
+  text-align: center;
+}
+
+#apply-form {
+  font-size: 22px;
+  text-align: center;
+}
+#apply-form label {
+  margin-left: -255px;
+}
+
+#contact-form {
+  font-size: 22px;
+  text-align: center;
+}
+#contact-form label {
+  margin-left: -310px;
+}
+
+#refer-description {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 28px;
+  text-align: center;
+}
+
+#refer-form {
+  font-size: 22px;
+  text-align: center;
+}
+
+#refer-form label {
+  margin-left: -350px;
+}
+#feedback-description {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 28px;
+  text-align: center;
+}
+
+#feedback-form {
+  font-size: 22px;
+  text-align: center;
+}
+
+
+textarea {
+  font-size: 18px;
+  padding-left: 5px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  outline: none;
+  border: 2px solid black;
+}
+input{
+  height: 30px;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+input[type=button] {
+  font-size: 22px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-radius: 10%;
+  transition: transform .2s;
+  outline: none;
+}
+
+input[type=button]:hover {
+  -webkit-transform: scale(1.05); 
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.shop-pictures {
+  font-size: 14px;
+  float: left;
+  padding: 0;
+  transition: transform .2s;
+} 
+
+.shop-pictures:hover {
+  -webkit-transform: scale(1.03); 
+  transform: scale(1.03); 
+  cursor: pointer;
+}
+
+/*clothing pictures*/
+#Apiece-Apart, #BAACAL, #bassike, #BEVZA, #Bird-Brooklyn, #Bon-Vivant, #Ciao-Lucia, #Collina-Strada, #COTTON-CITIZEN, #COURTYARD-LA, #Cult-Gaia, #DONNI, #Henri, #ILKERNIE, #LACAUSA, #Leon-Nord, #Native-Youth, #No14, #Nude-Ethics, #Pangaia, #REFINE,  #Retold-Vintage, #RHODE, #Rika-Studios, #Shaina-Mote, #Shop-Israella, #Shop-Treen, #TROIS {
+  font-size: 14px;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 0;
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+/*electronics pictures*/
+#abbyrose, #Blingo, #GagbyDesign, #Pela-Case, #ShopSunriseCases, #PetPixPrint, #Anti-Kn-Sylph, #TheUrbanFlair, #UrbanDayor, #Fantus-Cases {
+  font-size: 14px;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 0;
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+/* home decor pictures */
+#Bloomscape, #Favor, #Bole-Road-Textiles, #Morrow-Soft-Goods, #CULTIVER, #Far-Away, #SUNDAY-SHOP, #LEIF, #Cold-Picnic, #Rough-Linen, #Revival-Rugs, #Areaware, #Sumner, #Quiet-Town, #Weezie, #Porch-Light, #Jayson-Home, #Society-Social, #Swoon-Home, #We-Gather, #East-Fork {
+  font-size: 14px;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 0;
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+/* jewelry pictures*/ 
+#a79hour, #Amarilo, #Ashley-Zhang-Jewelry, #Aurate, #Aureum, #Bagatiba, #Bario-Neal, #Blue-Billie, #By-Alona, #Catch-Rhys, #Daphine, #JENNY-BIRD, #Lizzie-Mandler, #Louis-Abel, #Lulu-Frost, #Mayol, #Phine-Jewelry, #Precious-by-Kate, #Soko, #The-Last-Line, #Tohum-Design {
+  font-size: 14px;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 0;
+  box-shadow: 2px 2px 2px 2px darkgray;
+  
+}
+
+/* toys pictures */
+#Acorn-Toy-Shop, #Cate-and-Levi, #Child-Universe, #Manzanita-Kids, #My-Sweet-Muffin, #MyKrissieDolls, #OhJustDandy, #Pink-Olive-Boutique, #Stubby-Pencil-Studio, #thousand-skies, #Unepelotedelaine {
+  font-size: 14px;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 0;
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+
+

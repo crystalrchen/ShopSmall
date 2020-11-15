@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <title>ShopSmall</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰</button>  
+    </div>
+    <div class="navbar">
+      <div class="navbar-links">
+        <span class="navbarlogo">
+          <a href="index.html">ShopSmall</a>
+        </span>
+        <input type="text" id="searchInput" placeholder="Search ShopSmall">
+        <button id="search-button" onclick="searchDatabase()">search</button>
+        <ul>
+          <li><a href="apply.html">apply now</a></li>
+          <li><a href="refer.html">refer a shop</a></li>
+          <li><a href="feedback.html">leave feedback</a></li>
+        </ul>
+      
+      </div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h3>shop categories</h3>
+      <a href="clothing.html">clothing</a>
+      <a href="electronics.html">electronics/electronic accessories</a>
+      <a href="toys.html">toys</a>
+      <a href="jewelry.html">jewelry</a>
+      <a href="homedecor.html">home decor</a>
+      <h3>———————————</h3>
+      <a href="aboutus.html">about us</a>
+      <a href="contact.html">contact</a>
+    </div>
+    <div id="page-container">
+      <br>
+      <img src="graphics/title.png" class="center" width="200"> <br><br>
+      
+      
+      <div class="shop-pictures">
+        <div id="bassike">
+          <figure style="margin: 5px;">
+            <a href="https://us.bassike.com/" 
+            target="_blank">
+            <img src="graphics/clothing/bassike.png" alt="bassike" height="200">
+            <figcaption>bassike</figcaption>
+          </figure>
+        </div>
+      </div>
+            <div class="shop-pictures">
+        <div id="Bloomscape">
+          <figure style="margin: 5px;">
+            <a href="https://bloomscape.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Bloomscape.png" alt="Bloomscape" height="200">
+            <figcaption>Bloomscape</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="shop-pictures">
+        <div id="Bole-Road-Textiles">
+          <figure style="margin: 5px;">
+            <a href="https://boleroadtextiles.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Bole Road Textiles.png" alt="Bole Road Textiles" height="200">
+            <figcaption>Bole Road Textiles</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+
+      <div class="shop-pictures">
+        <div id="Far-Away">
+          <figure style="margin: 5px;">
+            <a href="https://farandaway.co/" 
+            target="_blank">
+            <img src="graphics/home decor/Far & Away.png" alt="Far & Away" height="200">
+            <figcaption>Far & Away</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="SUNDAY-SHOP">
+          <figure style="margin: 5px;">
+            <a href="https://www.sundayshop.co/" 
+            target="_blank">
+            <img src="graphics/home decor/SUNDAY SHOP.png" alt="SUNDAY SHOP" height="200">
+            <figcaption>SUNDAY SHOP</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="shop-pictures">
+        <div id="Cold-Picnic">
+          <figure style="margin: 5px;">
+            <a href="https://coldpicnic.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Cold Picnic.png" alt="Cold Picnic" height="200">
+            <figcaption>Cold Picnic</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Rough-Linen">
+          <figure style="margin: 5px;">
+            <a href="https://www.roughlinen.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Rough Linen.png" alt="Rough Linen" height="200">
+            <figcaption>Rough Linen</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      
+      <div class="shop-pictures">
+        <div id="Sumner">
+          <figure style="margin: 5px;">
+            <a href="http://www.sumnershop.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Sumner.png" alt="Sumner" height="200">
+            <figcaption>Sumner</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Quiet-Town">
+          <figure style="margin: 5px;">
+            <a href="https://quiettownhome.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Quiet Town.png" alt="Quiet Town" height="200">
+            <figcaption>Quiet Town</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Society-Social">
+          <figure style="margin: 5px;">
+            <a href="https://www.shopsocietysocial.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Society Social.png" alt="Society Social" height="200">
+            <figcaption>Society Social</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Swoon-Home">
+          <figure style="margin: 5px;">
+            <a href="https://www.swoonhomeliving.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Swoon Home.png" alt="Swoon Home" height="200">
+            <figcaption>Swoon Home</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="We-Gather">
+          <figure style="margin: 5px;">
+            <a href="https://wegathergoods.com/" 
+            target="_blank">
+            <img src="graphics/home decor/We Gather.png" alt="We Gather" height="200">
+            <figcaption>We Gather</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="shop-pictures">
+        <div id="Bird-Brooklyn">
+          <figure style="margin: 5px;">
+            <a href="https://birdbrooklyn.com/" 
+            target="_blank">
+            <img src="graphics/clothing/Bird Brooklyn.png" alt="Bird Brooklyn" height="200">
+            <figcaption>Bird Brooklyn</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Amarilo">
+          <figure style="margin: 5px;">
+            <a href="https://www.amarilojewelry.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Amarilo.png" alt="Amarilo" height="200">
+            <figcaption>Amarilo</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Bon-Vivant">
+          <figure style="margin: 5px;">
+            <a href="https://bonvivantshop.com/" target="_blank">
+            <img src="graphics/clothing/Bon Vivant.png" alt="Bon Vivant" height="200">
+            <figcaption>Bon Vivant</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Ciao-Lucia">
+          <figure style="margin: 5px;">
+            <a href="https://ciaolucia.com/" target="_blank">
+            <img src="graphics/clothing/Ciao Lucia.png" alt="Ciao Lucia" height="200">
+            <figcaption>Ciao Lucia</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="shop-pictures">
+        <div id="a79hour">
+          <figure style="margin: 5px;">
+            <a href="https://79hour.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/79hour.png" alt="79hour" height="200">
+            <figcaption>79hour</figcaption>
+          </figure>
+        </div>
+      </div>
+            <div class="shop-pictures">
+        <div id="PetPixPrint">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/PetPixPrint" 
+            target="_blank">
+            <img src="graphics/electronics/PetPixPrint.png" alt="PetPixPrint" height="200">
+            <figcaption>PetPixPrint</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Ashley-Zhang-Jewelry">
+          <figure style="margin: 5px;">
+            <a href="https://ashleyzhangjewelry.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Ashley Zhang Jewelry.png" alt="Ashley Zhang Jewelry" height="200">
+            <figcaption>Ashley Zhang Jewelry</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="LEIF">
+          <figure style="margin: 5px;">
+            <a href="https://www.leifshop.com/" 
+            target="_blank">
+            <img src="graphics/home decor/LEIF.png" alt="LEIF" height="200">
+            <figcaption>LEIF</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Aurate">
+          <figure style="margin: 5px;">
+            <a href="https://auratenewyork.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Aurate.png" alt="Aurate" height="200">
+            <figcaption>Aurate</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+
+      <div class="shop-pictures">
+        <div id="Pela-Case">
+          <figure style="margin: 5px;">
+            <a href="https://pelacase.com/" 
+            target="_blank">
+            <img src="graphics/electronics/Pela Case.png" alt="Pela Case" height="200">
+            <figcaption>Pela Case</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      
+      <div class="shop-pictures">
+        <div id="Child-Universe">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/ChildUniverse" 
+            target="_blank">
+            <img src="graphics/toys/Child Universe.png" alt="Child Universe" height="200">
+            <figcaption>Child Universe</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Manzanita-Kids">
+          <figure style="margin: 5px;">
+            <a href="https://www.manzanitakids.com/" 
+            target="_blank">
+            <img src="graphics/toys/Manzanita Kids.png" alt="Manzanita Kids" height="200">
+            <figcaption>Manzanita Kids</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="My-Sweet-Muffin">
+          <figure style="margin: 5px;">
+            <a href="https://www.mysweetmuffin.com/" 
+            target="_blank">
+            <img src="graphics/toys/My Sweet Muffin.png" alt="My Sweet Muffin" height="200">
+            <figcaption>My Sweet Muffin</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Areaware">
+          <figure style="margin: 5px;">
+            <a href="https://www.areaware.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Areaware.png" alt="Areaware" height="200">
+            <figcaption>Areaware</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="OhJustDandy">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/OhJustDandy" 
+            target="_blank">
+            <img src="graphics/toys/OhJustDandy.png" alt="OhJustDandy" height="200">
+            <figcaption>OhJustDandy</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Revival-Rugs">
+          <figure style="margin: 5px;">
+            <a href="https://www.revivalrugs.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Revival Rugs.png" alt="Revival Rugs" height="200">
+            <figcaption>Revival Rugs</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Pink-Olive-Boutique">
+          <figure style="margin: 5px;">
+            <a href="https://pinkolive.com/" 
+            target="_blank">
+            <img src="graphics/toys/Pink Olive Boutique.png" alt="Pink Olive Boutique" height="200">
+            <figcaption>Pink Olive Boutique</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Stubby-Pencil-Studio">
+          <figure style="margin: 5px;">
+            <a href="https://stubbypencilstudio.com/" 
+            target="_blank">
+            <img src="graphics/toys/Stubby Pencil Studio.png" alt="Stubby Pencil Studio" height="200">
+            <figcaption>Stubby Pencil Studio</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="thousand-skies">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/thousandskies" 
+            target="_blank">
+            <img src="graphics/toys/thousand skies.png" alt="thousand skies" height="200">
+            <figcaption>thousand skies</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Unepelotedelaine">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/Unepelotedelaine" 
+            target="_blank">
+            <img src="graphics/toys/Unepelotedelaine.png" alt="Unepelotedelaine" height="200">
+            <figcaption>Unepelotedelaine</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="East-Fork">
+          <figure style="margin: 5px;">
+            <a href="https://eastfork.com/" 
+            target="_blank">
+            <img src="graphics/home decor/East Fork.png" alt="East Fork" height="200">
+            <figcaption>East Fork</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Aureum">
+          <figure style="margin: 5px;">
+            <a href="https://aureumcollective.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Aureum.png" alt="Aureum" height="200">
+            <figcaption>Aureum</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Bagatiba">
+          <figure style="margin: 5px;">
+            <a href="https://bagatiba.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Bagatiba.png" alt="Bagatiba" height="200">
+            <figcaption>Bagatiba</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Weezie">
+          <figure style="margin: 5px;">
+            <a href="https://weezietowels.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Weezie.png" alt="Weezie" height="200">
+            <figcaption>Weezie</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Bario-Neal">
+          <figure style="margin: 5px;">
+            <a href="https://bario-neal.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Bario Neal.png" alt="Bario Neal" height="200">
+            <figcaption>Bario Neal</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+      <div id="MyKrissieDolls">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/MyKrissieDolls" 
+            target="_blank">
+            <img src="graphics/toys/MyKrissieDolls.png" alt="MyKrissieDolls" height="200">
+            <figcaption>MyKrissieDolls</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="By-Alona">
+          <figure style="margin: 5px;">
+            <a href="https://www.byalona.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/By Alona.png" alt="By Alona" height="200">
+            <figcaption>By Alona</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="GagbyDesign">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/GagbyDesign" 
+            target="_blank">
+            <img src="graphics/electronics/GagbyDesign.png" alt="GagbyDesign" height="200">
+            <figcaption>GagbyDesign</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Jayson-Home">
+          <figure style="margin: 5px;">
+            <a href="https://www.jaysonhome.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Jayson Home.png" alt="Jayson Home" height="200">
+            <figcaption>Jayson Home</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Favor">
+          <figure style="margin: 5px;">
+            <a href="https://infavorof.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Favor.png" alt="Favor" height="200">
+            <figcaption>Favor</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Cate-and-Levi">
+          <figure style="margin: 5px;">
+            <a href="https://www.cateandlevi.com/" 
+            target="_blank">
+            <img src="graphics/toys/Cate and Levi.png" alt="Cate and Levi" height="200">
+            <figcaption>Cate and Levi</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Catch-Rhys">
+          <figure style="margin: 5px;">
+            <a href="https://www.catchrhys.co.uk/" 
+            target="_blank">
+            <img src="graphics/jewelry/Catch Rhys.png" alt="Catch Rhys" height="200">
+            <figcaption>Catch Rhys</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Daphine">
+          <figure style="margin: 5px;">
+            <a href="https://shop-daphine.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Daphine.png" alt="Daphine" height="200">
+            <figcaption>Daphine</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Porch-Light">
+          <figure style="margin: 5px;">
+            <a href="https://porchlightshop.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Porch Light.png" alt="Porch Light" height="200">
+            <figcaption>Porch Light</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Apiece-Apart">
+          <figure style="margin: 5px;">
+            <a href="https://www.apieceapart.com/" 
+            target="_blank">
+            <img src="graphics/clothing/Apiece Apart.png" alt="Apiece Apart" height="200">
+            <figcaption>Apiece Apart</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="JENNY-BIRD">
+          <figure style="margin: 5px;">
+            <a href="https://jenny-bird.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/JENNY BIRD.png" alt="JENNY BIRD" height="200">
+            <figcaption>JENNY BIRD</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Lizzie-Mandler">
+          <figure style="margin: 5px;">
+            <a href="https://lizziemandler.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Lizzie Mandler.png" alt="Lizzie Mandler" height="200">
+            <figcaption>Lizzie Mandler</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="DONNI">
+          <figure style="margin: 5px;">
+            <a href="https://shopdonni.com/" target="_blank">
+            <img src="graphics/clothing/DONNI.png" alt="DONNI" height="200">
+            <figcaption>DONNI</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Morrow-Soft-Goods">
+          <figure style="margin: 5px;">
+            <a href="https://www.morrowsoftgoods.com/" 
+            target="_blank">
+            <img src="graphics/home decor/Morrow Soft Goods.png" alt="Morrow Soft Goods" height="200">
+            <figcaption>Morrow Soft Goods</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Louis-Abel">
+          <figure style="margin: 5px;">
+            <a href="https://www.louis-abel.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Louis Abel.png" alt="Louis Abel" height="200">
+            <figcaption>Louis Abel</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="abbyrose">
+          <figure style="margin: 5px;">
+            <a href="https://www.shopabbyrose.com/" 
+            target="_blank">
+            <img src="graphics/electronics/abbyrose.png" alt="abbyrose" height="200">
+            <figcaption>abbyrose</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Blue-Billie">
+          <figure style="margin: 5px;">
+            <a href="https://bluebillie.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Blue Billie.png" alt="Blue Billie" height="200">
+            <figcaption>Blue Billie</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="CULTIVER">
+          <figure style="margin: 5px;">
+            <a href="https://cultiver.com/" 
+            target="_blank">
+            <img src="graphics/home decor/CULTIVER.png" alt="CULTIVER" height="200">
+            <figcaption>CULTIVER</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Lulu-Frost">
+          <figure style="margin: 5px;">
+            <a href="https://www.lulufrost.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Lulu Frost.png" alt="Lulu Frost" height="200">
+            <figcaption>Lulu Frost</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Mayol">
+          <figure style="margin: 5px;">
+            <a href="https://mayoljewelry.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Mayol.png" alt="Mayol" height="200">
+            <figcaption>Mayol</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Phine-Jewelry">
+          <figure style="margin: 5px;">
+            <a href="https://www.phine.london/" 
+            target="_blank">
+            <img src="graphics/jewelry/Phine Jewelry.png" alt="Phine Jewelry" height="200">
+            <figcaption>Phine Jewelry</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="shop-pictures">
+        <div id="Soko">
+          <figure style="margin: 5px;">
+            <a href="https://shopsoko.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Soko.png" alt="Soko" height="200">
+            <figcaption>Soko</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Acorn-Toy-Shop">
+          <figure style="margin: 5px;">
+            <a href="https://www.acorntoyshop.com/" 
+            target="_blank">
+            <img src="graphics/toys/Acorn Toy Shop.png" alt="Acorn Toy Shop" height="200">
+            <figcaption>Acorn Toy Shop</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="The-Last-Line">
+          <figure style="margin: 5px;">
+            <a href="https://thisisthelast.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/The Last Line.png" alt="The Last Line" height="200">
+            <figcaption>The Last Line</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Tohum-Design">
+          <figure style="margin: 5px;">
+            <a href="https://tohumdesign.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Tohum Design.png" alt="Tohum Design" height="200">
+            <figcaption>Tohum Design</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Collina-Strada">
+          <figure style="margin: 5px;">
+            <a href="https://collinastrada.com/" target="_blank">
+            <img src="graphics/clothing/Collina Strada.png" alt="Collina Strada" height="200">
+            <figcaption>Collina Strada</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="UrbanDayor">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/UrbanDayor" 
+            target="_blank">
+            <img src="graphics/electronics/UrbanDayor.png" alt="UrbanDayor" height="200">
+            <figcaption>UrbanDayor</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="COTTON-CITIZEN">
+          <figure style="margin: 5px;">
+            <a href="https://cottoncitizen.com/" target="_blank">
+            <img src="graphics/clothing/COTTON CITIZEN.png" alt="COTTON CITIZEN" height="200">
+            <figcaption>COTTON CITIZEN</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Precious-by-Kate">
+          <figure style="margin: 5px;">
+            <a href="https://www.preciousbykate.com/" 
+            target="_blank">
+            <img src="graphics/jewelry/Precious by Kate.png" alt="Precious by Kate" height="200">
+            <figcaption>Precious by Kate</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="BAACAL">
+          <figure style="margin: 5px;">
+            <a href="https://www.baacal.com/" 
+            target="_blank">
+            <img src="graphics/clothing/BAACAL.png" alt="BAACAL" height="200">
+            <figcaption>BAACAL</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="ShopSunriseCases">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/ShopSunriseCases" 
+            target="_blank">
+            <img src="graphics/electronics/ShopSunriseCases.png" alt="ShopSunriseCases" height="200">
+            <figcaption>ShopSunriseCases</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="COURTYARD-LA">
+          <figure style="margin: 5px;">
+            <a href="https://www.courtyardla.com/" target="_blank">
+            <img src="graphics/clothing/COURTYARD LA.png" alt="COURTYARD LA" height="200">
+            <figcaption>COURTYARD LA</figcaption>
+          </figure>
+        </div>
+      </div>
+            <div class="shop-pictures">
+        <div id="TROIS">
+          <figure style="margin: 5px;">
+            <a href="https://troisthelabel.com/" target="_blank">
+            <img src="graphics/clothing/TROIS.png" alt="TROIS" height="200">
+            <figcaption>TROIS</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Cult-Gaia">
+          <figure style="margin: 5px;">
+            <a href="https://cultgaia.com/" target="_blank">
+            <img src="graphics/clothing/Cult Gaia.png" alt="Cult Gaia" height="200">
+            <figcaption>Cult Gaia</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="shop-pictures">
+        <div id="Henri">
+          <figure style="margin: 5px;">
+            <a href="https://henri.london/" target="_blank">
+            <img src="graphics/clothing/Henri.png" alt="Henri" height="200">
+            <figcaption>Henri</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="ILKERNIE">
+          <figure style="margin: 5px;">
+            <a href="https://ilkandernie.com/" target="_blank">
+            <img src="graphics/clothing/ILK + ERNIE.png" alt="ILK + ERNIE" height="200">
+            <figcaption>ILK + ERNIE</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="BEVZA">
+          <figure style="margin: 5px;">
+            <a href="https://bevza.com/" 
+            target="_blank">
+            <img src="graphics/clothing/BEVZA.png" alt="BEVZA" height="200">
+            <figcaption>BEVZA</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="LACAUSA">
+          <figure style="margin: 5px;">
+            <a href="https://www.lacausaclothing.com/" target="_blank">
+            <img src="graphics/clothing/LACAUSA.png" alt="LACAUSA" height="200">
+            <figcaption>LACAUSA</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Leon-Nord">
+          <figure style="margin: 5px;">
+            <a href="https://leon-nord.com/" target="_blank">
+            <img src="graphics/clothing/Leon Nord.png" alt="Leon Nord" height="200">
+            <figcaption>Leon Nord</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Fantus-Cases">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/FantusCasesCo" 
+            target="_blank">
+            <img src="graphics/electronics/Fantus Cases.png" alt="Fantus Cases" height="200">
+            <figcaption>Fantus Cases</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Native-Youth">
+          <figure style="margin: 5px;">
+            <a href="https://www.native-youth.com/" target="_blank">
+            <img src="graphics/clothing/Native Youth.png" alt="Native Youth" height="200">
+            <figcaption>Native Youth</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="No14">
+          <figure style="margin: 5px;">
+            <a href="https://www.no14boutique.com/" target="_blank">
+            <img src="graphics/clothing/No. 14.png" alt="No. 14" height="200">
+            <figcaption>No. 14</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Blingo">
+          <figure style="margin: 5px;">
+            <a href="https://blingo.store/" 
+            target="_blank">
+            <img src="graphics/electronics/Blingo.png" alt="Blingo" height="200">
+            <figcaption>Blingo</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Nude-Ethics">
+          <figure style="margin: 5px;">
+            <a href="https://www.nudeethics.com/" target="_blank">
+            <img src="graphics/clothing/Nude Ethics.png" alt="Nude Ethics" height="200">
+            <figcaption>Nude Ethics</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Pangaia">
+          <figure style="margin: 5px;">
+            <a href="https://thepangaia.com/" target="_blank">
+            <img src="graphics/clothing/Pangaia.png" alt="Pangaia" height="200">
+            <figcaption>Pangaia</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="REFINE">
+          <figure style="margin: 5px;">
+            <a href="https://www.refine-store.com/" target="_blank">
+            <img src="graphics/clothing/REFINE.png" alt="REFINE" height="200">
+            <figcaption>REFINE</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Retold-Vintage">
+          <figure style="margin: 5px;">
+            <a href="https://www.retoldvintage.com/" target="_blank">
+            <img src="graphics/clothing/Retold Vintage.png" alt="Retold Vintage" height="200">
+            <figcaption>Retold Vintage</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="RHODE">
+          <figure style="margin: 5px;">
+            <a href="https://shoprhode.com/" target="_blank">
+            <img src="graphics/clothing/RHODE.png" alt="RHODE" height="200">
+            <figcaption>RHODE</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Rika-Studios">
+          <figure style="margin: 5px;">
+            <a href="https://www.rikastudios.com/" target="_blank">
+            <img src="graphics/clothing/Rika Studios.png" alt="Rika Studios" height="200">
+            <figcaption>Rika Studios</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Shaina-Mote">
+          <figure style="margin: 5px;">
+            <a href="https://shainamote.com/" target="_blank">
+            <img src="graphics/clothing/Shaina Mote.png" alt="Shaina Mote" height="200">
+            <figcaption>Shaina Mote</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Shop-Israella">
+          <figure style="margin: 5px;">
+            <a href="https://shopisraella.com/" target="_blank">
+            <img src="graphics/clothing/Shop Israella.png" alt="Shop Israella" height="200">
+            <figcaption>Shop Israella</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Shop-Treen">
+          <figure style="margin: 5px;">
+            <a href="https://shoptreen.com/" target="_blank">
+            <img src="graphics/clothing/Shop Treen.png" alt="Shop Treen" height="200">
+            <figcaption>Shop Treen</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="Anti-Kn-Sylph">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/AntiKnSylph" 
+            target="_blank">
+            <img src="graphics/electronics/Anti Kn Sylph.png" alt="Anti Kn Sylph" height="200">
+            <figcaption>Anti Kn Sylph</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="shop-pictures">
+        <div id="TheUrbanFlair">
+          <figure style="margin: 5px;">
+            <a href="https://www.etsy.com/shop/TheUrbanFlair" 
+            target="_blank">
+            <img src="graphics/electronics/TheUrbanFlair.png" alt="TheUrbanFlair" height="200">
+            <figcaption>TheUrbanFlair</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div> 
+    <script src="script.js"></script>
+  </body>
+</html>
