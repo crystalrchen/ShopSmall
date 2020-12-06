@@ -1,4 +1,4 @@
-# ShopSmall - Creatica Hackathon
+# ShopSmall - Creatica Hackathon 2020
 # Inspiration
 I was inspired by the countless ads and videos striving to promote small businesses I've seen on social media. I always wanted to look for a database containing these small businesses exclusively but could never find one, so I decided to create one. The format of ShopSmall was also inspired by the format of the Amazon website, with search options and different categories to look through. Recently, because of the global pandemic, many owners are relying on their shops to earn money and stay afloat, but they often go unnoticed despite the high-quality items and top-notch customer service they provide.
 
