@@ -4,7 +4,7 @@ html * {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 6.1vh;
   text-align: center;
 
 }
@@ -15,13 +15,13 @@ h1 {
 }
 
 h3 {
-  margin-left: 30px;
+  margin-left: 2.1vw;
   background-color: white;
 }
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 2vh;
   display: inline-block;
 }
 
@@ -56,13 +56,13 @@ a:hover{
 
 .navbar-links ul{
   display: inline-flex;
-  margin-top: 35px;
+  margin-top: 4.3vh;
 }
 
 .navbar-links ul li{
   list-style: none;
-  font-size: 17px;
-  margin: 0 20px;
+  font-size: 2.1vh;
+  margin: 0 1.4vw;
   color: #000000;
   cursor: pointer;
 }
@@ -70,14 +70,14 @@ a:hover{
 .navbar input[type=text] {
   display: inline-block;
   width: 50%;
-  height: 25px;  
-  padding: 6px;
-  margin-top: 25px;
-  margin-left: 35px;
-  border-radius: 5px; 
-  border: 1px solid black;
+  height: 3vh;  
+  padding: 0.7vh;
+  margin-top: 3vh;
+  margin-left: 2.4vw;
+  border-radius: 0.6vh; 
+  border: 0.1vh solid black;
   outline: none;
-  font-size: 15px;
+  font-size: 1.8vh;
 }
 
 .navbar button {
@@ -95,14 +95,14 @@ a:hover{
   background-color: white;
   overflow-x: hidden;
   transition: 0.4s;
-  padding-top: 60px;
+  padding-top: 7.3vh;
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 1vh 1vh 0.6vw 2.2vw;
   background-color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1.8vh;
   color: black;
   display: block;
   transition: 0.3s;
@@ -115,16 +115,16 @@ a:hover{
 .sidebar .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  right: 1.7vw;
+  font-size: 4.4vh;
+  margin-left: 3.5vw;
 }
 
 .openbtn {
-  font-size: 20px;
+  font-size: 2.4vh;
   cursor: pointer;
   color: black;
-  padding: 10px 15px;
+  padding: 1.2vh 1vw;
   border: none;
   outline: none;
 }
@@ -136,102 +136,102 @@ a:hover{
 }
 
 #aboutus-description {
-  margin-right: 50px;
-  margin-left: 50px;
-  font-size: 25px;
+  margin-right: 3.5vw;
+  margin-left: 3.5vw;
+  font-size: 3vh;
   text-align: center;
 }
 
 #contact-description {
-  margin-right: 50px;
-  margin-left: 50px;
-  font-size: 25px;
+  margin-right: 3.5vw;
+  margin-left: 3.5vw;
+  font-size: 3vh;
   text-align: center;
 }
 
 #page-title {
-  font-size: 22px;
-  margin-left: 30px;
-  margin-top: 5px;
-  margin-bottom: 0px;
+  font-size: 2.7vh;
+  margin-left: 2.1vw;
+  margin-top: 0.6vh;
+  margin-bottom: 0;
 }
 
 #page-container {
-  margin-left: 10px;
+  margin-left: 0.7vw;
 }
 
 #apply-description {
-  margin-right: 50px;
-  margin-left: 50px;
-  font-size: 28px;
+  margin-right: 3.5vw;
+  margin-left: 3.5vw;
+  font-size: 3.4vh;
   text-align: center;
 }
 
 #apply-form {
-  font-size: 22px;
+  font-size: 2.7vh;
   text-align: center;
 }
 #apply-form label {
-  margin-left: -255px;
+  margin-left: -17.7vw;
 }
 
 #contact-form {
-  font-size: 22px;
+  font-size: 2.7vh;
   text-align: center;
 }
 #contact-form label {
-  margin-left: -310px;
+  margin-left: -21.5vw;
 }
 
 #refer-description {
-  margin-right: 50px;
-  margin-left: 50px;
-  font-size: 28px;
+  margin-right: 3.5vw;
+  margin-left: 3.5vw;
+  font-size: 3.4vh;
   text-align: center;
 }
 
 #refer-form {
-  font-size: 22px;
+  font-size: 2.7vh;
   text-align: center;
 }
 
 #refer-form label {
-  margin-left: -350px;
+  margin-left: -24.3vw;
 }
 #feedback-description {
-  margin-right: 50px;
-  margin-left: 50px;
-  font-size: 28px;
+  margin-right: 3.5vw;
+  margin-left: 3.5vw;
+  font-size: 3.4vh;
   text-align: center;
 }
 
 #feedback-form {
-  font-size: 22px;
+  font-size: 2.7vh;
   text-align: center;
 }
 
 
 textarea {
-  font-size: 18px;
-  padding-left: 5px;
-  padding-top: 7px;
-  padding-bottom: 5px;
+  font-size: 2.2vh;
+  padding-left: 0.3vw;
+  padding-top: 0.9vh;
+  padding-bottom: 0.6vh;
   outline: none;
-  border: 2px solid black;
+  border: 0.25vh solid black;
 }
 input{
-  height: 30px;
-  font-size: 18px;
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  height: 2.1vw;
+  font-size: 2.2vh;
+  padding-left: 0.3vw;
+  padding-top: 0.6vh;
+  padding-bottom: 0.6vh;
   outline: none;
 }
 
 input[type=button] {
-  font-size: 22px;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  font-size: 2.7vh;
+  padding-top: 0;
+  padding-bottom: 1.2vh;
   border-radius: 10%;
   transition: transform .2s;
   outline: none;
@@ -244,7 +244,7 @@ input[type=button]:hover {
 }
 
 .shop-pictures {
-  font-size: 14px;
+  font-size: 1.7vh;
   float: left;
   padding: 0;
   transition: transform .2s;
@@ -258,57 +258,57 @@ input[type=button]:hover {
 
 /*clothing pictures*/
 #Apiece-Apart, #BAACAL, #bassike, #BEVZA, #Bird-Brooklyn, #Bon-Vivant, #Ciao-Lucia, #Collina-Strada, #COTTON-CITIZEN, #COURTYARD-LA, #Cult-Gaia, #DONNI, #Henri, #ILKERNIE, #LACAUSA, #Leon-Nord, #Native-Youth, #No14, #Nude-Ethics, #Pangaia, #REFINE,  #Retold-Vintage, #RHODE, #Rika-Studios, #Shaina-Mote, #Shop-Israella, #Shop-Treen, #TROIS {
-  font-size: 14px;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  font-size: 1.7vh;
+  margin: 2.4vh;
+  margin-top: 0;
+  margin-bottom: 3.7vh;
   float: left;
   padding: 0;
-  box-shadow: 2px 2px 2px 2px darkgray;
+  box-shadow: 0.25vh 0.25vh 0.25vh 0.25vh darkgray;
 }
 
 /*electronics pictures*/
 #abbyrose, #Blingo, #GagbyDesign, #Pela-Case, #ShopSunriseCases, #PetPixPrint, #Anti-Kn-Sylph, #TheUrbanFlair, #UrbanDayor, #Fantus-Cases {
-  font-size: 14px;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  font-size: 1.7vh;
+  margin: 2.4vh;
+  margin-top: 0;
+  margin-bottom: 3.7vh;
   float: left;
   padding: 0;
-  box-shadow: 2px 2px 2px 2px darkgray;
+  box-shadow: 0.25vh 0.25vh 0.25vh 0.25vh darkgray;
 }
 
 /* home decor pictures */
 #Bloomscape, #Favor, #Bole-Road-Textiles, #Morrow-Soft-Goods, #CULTIVER, #Far-Away, #SUNDAY-SHOP, #LEIF, #Cold-Picnic, #Rough-Linen, #Revival-Rugs, #Areaware, #Sumner, #Quiet-Town, #Weezie, #Porch-Light, #Jayson-Home, #Society-Social, #Swoon-Home, #We-Gather, #East-Fork {
-  font-size: 14px;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  font-size: 1.7vh;
+  margin: 2.4vh;
+  margin-top: 0;
+  margin-bottom: 3.7vh;
   float: left;
   padding: 0;
-  box-shadow: 2px 2px 2px 2px darkgray;
+  box-shadow: 0.25vh 0.25vh 0.25vh 0.25vh darkgray;
 }
 /* jewelry pictures*/ 
 #a79hour, #Amarilo, #Ashley-Zhang-Jewelry, #Aurate, #Aureum, #Bagatiba, #Bario-Neal, #Blue-Billie, #By-Alona, #Catch-Rhys, #Daphine, #JENNY-BIRD, #Lizzie-Mandler, #Louis-Abel, #Lulu-Frost, #Mayol, #Phine-Jewelry, #Precious-by-Kate, #Soko, #The-Last-Line, #Tohum-Design {
-  font-size: 14px;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  font-size: 1.7vh;
+  margin: 2.4vh;
+  margin-top: 0;
+  margin-bottom: 3.7vh;
   float: left;
   padding: 0;
-  box-shadow: 2px 2px 2px 2px darkgray;
+  box-shadow: 0.25vh 0.25vh 0.25vh 0.25vh darkgray;
   
 }
 
 /* toys pictures */
 #Acorn-Toy-Shop, #Cate-and-Levi, #Child-Universe, #Manzanita-Kids, #My-Sweet-Muffin, #MyKrissieDolls, #OhJustDandy, #Pink-Olive-Boutique, #Stubby-Pencil-Studio, #thousand-skies, #Unepelotedelaine {
-  font-size: 14px;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  font-size: 1.7vh;
+  margin: 2.4vh;
+  margin-top: 0;
+  margin-bottom: 3.7vh;
   float: left;
   padding: 0;
-  box-shadow: 2px 2px 2px 2px darkgray;
+  box-shadow: 0.25vh 0.25vh 0.25vh 0.25vh darkgray;
 }
 
 
